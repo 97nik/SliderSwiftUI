@@ -22,11 +22,11 @@ struct ContentView: View {
                 ColorView(color:          UIColor(red:CGFloat(sliderValueRed)/250, green:CGFloat(sliderValueGreen)/250 , blue: CGFloat(sliderValueBlue)/250, alpha: 1 ))
                 
                 SliderColor(value: $sliderValueRed, colorLineSlider: .red)
-               
+                
                 SliderColor(value: $sliderValueBlue,colorLineSlider: .blue)
-               
+                
                 SliderColor(value: $sliderValueGreen, colorLineSlider: .green)
-               
+                
                 Spacer()
             }
             .padding(.horizontal)

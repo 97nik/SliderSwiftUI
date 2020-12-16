@@ -16,13 +16,13 @@ struct ColorView: View {
             Color(.white)
                 .frame(width: 400, height: 150)
                 .cornerRadius(10)
-
-        RoundedRectangle(cornerRadius: 25, style: .continuous)
-            .fill(Color(color))
-            .frame(width: 400, height: 150)
-            .border(Color.white, width: 5)
-            .cornerRadius(10)
-           
+            
+            RoundedRectangle(cornerRadius: 25, style: .continuous)
+                .fill(Color(color))
+                .frame(width: 400, height: 150)
+                .border(Color.white, width: 5)
+                .cornerRadius(10)
+            
         }
     }
 }

@@ -40,6 +40,7 @@ struct SliderColor: View {
                     .background(Color(.white))
                     .multilineTextAlignment(.center)
                     .cornerRadius(5)
+                    .keyboardType(.numberPad)
             }
             .padding(.horizontal)
         }
